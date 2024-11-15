@@ -1,0 +1,28 @@
+body {
+    background-image: url(luna-octubre.jpg);
+    background-size: cover; /* La imagen cubre toda la pantalla */
+    background-position: center; /* Centra la imagen en la pantalla */
+
+}
+
+body {
+    color: white; /* Cambia el color del texto a blanco */
+    display: flex; /* Utiliza flexbox */
+    flex-direction: column; /* Organiza los elementos en una columna */
+    justify-content: center; /* Centra verticalmente todo el contenido */
+    align-items: center; /* Centra horizontalmente todo el contenido */
+    height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina márgenes predeterminados */
+}
+
+h1 {
+    font-size: 4rem; /* Aumenta el tamaño de la fuente del h1 */
+    margin: 20px 0; /* Añade espacio alrededor del h1 */
+}
+
+p {
+    font-size: 2rem; /* Aumenta el tamaño de la fuente del p, pero más pequeño que el h1 */
+    margin: 10px 0; /* Añade espacio alrededor del p */
+    text-align: center; /* Centra el texto dentro del p */
+    max-width: 80%; /* Limita el ancho del párrafo para evitar que se estire de lado */
+}
